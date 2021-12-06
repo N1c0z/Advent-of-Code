@@ -1,6 +1,3 @@
-from functools import total_ordering
-
-
 def Parser(fileContent):
     listOrSomething = []
     
