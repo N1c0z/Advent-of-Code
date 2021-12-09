@@ -42,7 +42,7 @@ int main(void){
         amountOfZeros = 0;
         amountOfOnes = 0;
     }
-    
+    free(contents);
     printf("Result: %llu\n", binaryToDecimal(num) * binaryToDecimal(num1));
     return 0;
 }
